@@ -8,3 +8,13 @@ Manfaat penggunaan Custom Exception antara lain:
 - Menyediakan pesan error yang lebih informatif dan sesuai konteks.
 - Memudahkan proses pencarian dan perbaikan kesalahan (debugging).
 - Membuat program lebih rapi, terstruktur, dan mudah dikelola.
+
+Contoh Source Code :
+        try {
+            periksaNama("Nola");   // contoh input
+        } catch (NamaKosongException e) {
+            System.out.println("Terjadi kesalahan: " + e.getMessage());
+        }
+    }
+
+Pada program ini, method periksaNama akan mengecek input nama yang dijalankan di dalam blok try. Jika nama kosong atau tidak diisi, maka akan dilemparkan ke dalam class NamaKosongException yang ditangkap oleh catch dan akan menampilkan pesan kesalahan.
