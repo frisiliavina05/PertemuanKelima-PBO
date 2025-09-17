@@ -336,6 +336,7 @@ public class DataMusik extends javax.swing.JFrame {
                 Logger.getLogger(DataMusik.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
+        bersih();
         tampilkanTabel(); // reload data biar terlihat update-nya
     }//GEN-LAST:event_btnUpdateActionPerformed
 
