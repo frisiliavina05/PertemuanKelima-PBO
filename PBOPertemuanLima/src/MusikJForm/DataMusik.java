@@ -296,14 +296,6 @@ public class DataMusik extends javax.swing.JFrame {
         bersih();
     }//GEN-LAST:event_btnClearActionPerformed
 
-//    private void TabelMouseClicked(java.awt.event.MouseEvent evt) {
-//        int row = tblRead.getSelectedRow();
-//        tfID.setText(tblRead.getValueAt(row, 0).toString());
-//        tfJudul.setText(tblRead.getValueAt(row, 1).toString());
-//        tfArtis.setText(tblRead.getValueAt(row, 2).toString());
-//        tfTahun.setText(tblRead.getValueAt(row, 3).toString());
-//    }
-
     private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateActionPerformed
         // TODO add your handling code here:
         if (tfID.getText().trim().isEmpty()) {
