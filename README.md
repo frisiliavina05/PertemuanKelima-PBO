@@ -22,11 +22,11 @@ Pada program ini, method periksaNama akan mengecek input nama yang dijalankan di
 
 # 2. CRUD dengan menggunakan Java Form
 CRUD (Create, Read, Update, Delete) merupakan empat operasi dasar yang digunakan dalam pengolahan data pada sistem basis data. Dalam pemrograman Java, implementasi CRUD dapat dilakukan dengan memanfaatkan Java Swing sebagai antarmuka grafis (GUI) serta JDBC (Java Database Connectivity) untuk menghubungkan aplikasi dengan database, misalnya PostgreSQL.
-- Create (Insert Data)
+- Create (Insert Data) : 
 Digunakan untuk memasukkan data baru ke dalam tabel database. Data biasanya diinput melalui komponen seperti JTextField, lalu dikirim ke database menggunakan perintah INSERT INTO dengan bantuan PreparedStatement.
-- Read (Menampilkan Data)
+- Read (Menampilkan Data) : 
 Digunakan untuk mengambil data dari database dan menampilkannya pada komponen JTable. Proses ini menggunakan query SELECT yang hasilnya diolah melalui ResultSet dan diubah menjadi TableModel, sehingga data bisa ditampilkan dengan rapi pada antarmuka.
-- Update (Mengubah Data)
+- Update (Mengubah Data) : 
 Digunakan untuk mengubah data yang sudah ada di dalam tabel. Operasi ini memanfaatkan query UPDATE yang dikombinasikan dengan PreparedStatement agar lebih aman serta mencegah terjadinya SQL Injection.
-- Delete (Menghapus Data)
+- Delete (Menghapus Data) : 
 Digunakan untuk menghapus data yang tersimpan di tabel. Pada Java Form, biasanya ditambahkan dialog konfirmasi menggunakan JOptionPane sebelum menjalankan query DELETE, agar tidak terjadi penghapusan data secara tidak sengaja.
