@@ -337,7 +337,6 @@ public class DataMusik extends javax.swing.JFrame {
             }
         }
         tampilkanTabel(); // reload data biar terlihat update-nya
-        JOptionPane.showMessageDialog(null, "Data berhasil diupdate");
     }//GEN-LAST:event_btnUpdateActionPerformed
 
     private void btnInsertActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnInsertActionPerformed
